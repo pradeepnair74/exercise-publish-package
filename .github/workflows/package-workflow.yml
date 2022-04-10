@@ -13,7 +13,6 @@ jobs:
         with:
           node-version: 12
       - run: npm ci
-        working-directory: /exercise-publish-package/sample-packages/npm/
       - run: npm test
 
   publish-gpr:
